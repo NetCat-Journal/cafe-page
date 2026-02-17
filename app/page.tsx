@@ -1,11 +1,15 @@
 'use client';
 import { motion, useScroll, useTransform } from 'framer-motion';
+import Navbar from './components/Navbar/navbar';
 
 export default function Home() {
   const { scrollY } = useScroll()
   const heroY = useTransform(scrollY, [0, 500], [0, 300]);
   return (
     <main className="min-h-screen">
+      <section>
+        <Navbar />
+      </section>
       {/* 1. hero section*/}
       <section className="h-screen relative overflow-hidden">
         <motion.div style={{ y: heroY }} className="absolute inset-0">
@@ -33,8 +37,12 @@ export default function Home() {
       {/* 2. about section*/}
       <section className="py-20 px-4 bg-white">
         <div className="max-w-7xl grid md:grid-cols-2 gap-12 mx-auto items-center">
-          <div className="rounded-xl">
+          <div className="rounded-xl relative">
             <img src="/img/barista.jpg" alt="barista" className="w-full h-full rounded-xl object-cover"></img>
+            <div>
+              <div className="absolute inset-0 bg-gradient-to-t rounded-xl from-[#2d1c10]/80 via-[#2d1c10]/50 to-transparent
+"></div>
+            </div>
           </div>
           <div>
             <h1 className="text-5xl text-amber-950 font-bold mb-6">Our Story</h1>
