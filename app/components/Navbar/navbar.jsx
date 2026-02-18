@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navbar() {
     return (
-        <div className='flex flex-row px-9 items-center justify-between'>
+        <div className='flex flex-row px-6 md:px-9 items-center justify-between'>
             <div className='w-32 h-32'>
                 <img alt="logo" src="/img/logo.jpg" className='h -full object-contain'></img>
             </div>

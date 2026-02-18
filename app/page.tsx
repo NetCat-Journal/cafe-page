@@ -1,6 +1,8 @@
 'use client';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import Navbar from './components/Navbar/navbar';
+import Footer from './components/Footer/footer';
+import Form from './components/Form/form';
 
 export default function Home() {
   const { scrollY } = useScroll()
@@ -80,12 +82,12 @@ export default function Home() {
 
       {/* 5. form section*/}
       <section>
-        <h1>form</h1>
+        <Form />
       </section>
 
       {/* 6. footer section*/}
       <footer>
-        <h1>footer</h1>
+        <Footer />
       </footer>
 
     </main>
