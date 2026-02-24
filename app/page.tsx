@@ -3,12 +3,13 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 import Navbar from './components/Navbar/navbar';
 import Footer from './components/Footer/footer';
 import Form from './components/Form/form';
+import Testimonials from './components/Testimonials/testimonials';
 
 export default function Home() {
   const { scrollY } = useScroll()
   const heroY = useTransform(scrollY, [0, 500], [0, 300]);
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen w-screen overflow-hidden">
       <section>
         <Navbar />
       </section>
@@ -72,21 +73,21 @@ export default function Home() {
 
       {/* 3. items section*/}
       <section>
-        <h1>items</h1>
+
       </section>
 
       {/* 4. testimonials section*/}
-      <section>
-        <h1>testimonials</h1>
+      <section className='w-full'>
+        <Testimonials />
       </section>
 
       {/* 5. form section*/}
-      <section>
+      <section className='w-full mt-10'>
         <Form />
       </section>
 
       {/* 6. footer section*/}
-      <footer>
+      <footer className='w-full mt-10'>
         <Footer />
       </footer>
 

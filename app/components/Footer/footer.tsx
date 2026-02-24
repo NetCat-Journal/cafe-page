@@ -3,7 +3,7 @@ import { Facebook, Instagram } from 'lucide-react';
 
 function Footer() {
     return (
-        <div className='w-screen p-8 bg-[#a96522]'>
+        <div className=' p-8 bg-[#a96522]'>
             <div className='w-8 h-8 md:w-16 md:h-16 rounded-full mb-4'>
                 <img alt="logo" src="/img/logo.jpg" className='h-full object-contain rounded-full'></img>
             </div>
