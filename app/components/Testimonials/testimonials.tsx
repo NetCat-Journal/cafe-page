@@ -7,16 +7,7 @@ import {
 } from "@/components/ui/carousel";
 import { Coffee } from 'lucide-react';
 import { Card, CardContent } from "@/components/ui/card";
-import { testimonials } from "../../data/testimonials";
-
-interface Testimonial {
-  id: number;
-  name: string;
-  role: string;
-  rating: number;
-  text: string;
-  avatar: string;
-}
+import { testimonials, Testimonial } from "../../data/testimonials";
 
 function Testimonials() {
   return (
@@ -42,8 +33,8 @@ function Testimonials() {
                           <Coffee key={index} size={22} className="fill-[#C47A2C] transition-transform hover:scale-110" />
                         ))}
                       </div>
-                      <p className="text-md text-[#221407]  mb-4 text-center mt-8 leading-relaxed">"{testimonial.text}"</p>
-                      <div className="mb-2 text-lg">
+                      <p className="text-md text-[#8e8e8e]  mb-4 text-center mt-8 leading-relaxed">"{testimonial.text}"</p>
+                      <div className="mb-2 text-lg text-[#8e8e8e]">
                         {testimonial.role}
                       </div>
                     </div>
