@@ -22,22 +22,22 @@ export default function Home() {
       </section>
 
       {/* 2. about section*/}
-      <section id="about" className="py-20 px-4 bg-gradient-to-b from-gray-50 to-white scroll-m-2">
+      <section id="about" className="px-8 py-12 bg-gradient-to-b from-gray-50 to-white scroll-m-2">
         <About />
       </section>
 
       {/* 3. items section*/}
-      <section id="menu" className='w-full mb-2'>
+      <section id="menu" className='w-full'>
         <Items />
       </section>
 
       {/* 4. testimonials section*/}
-      <section id="testimonials" className='w-full'>
+      <section id="testimonials" className='w-full px-8'>
         <Testimonials />
       </section>
 
       {/* 5. form section*/}
-      <section id="contact" className='w-full mt-10'>
+      <section id="contact" className='w-full px-8'>
         <Form />
       </section>
 

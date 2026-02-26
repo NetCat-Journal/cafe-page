@@ -11,7 +11,7 @@ function About() {
                 </div>
             </div>
             <div>
-                <h1 className="text-[#a96522] text-5xl font-bold mb-6">Our Story</h1>
+                <h1 className="text-[#a96522] text-3xl md:text-5xl font-bold mb-6">Our Story</h1>
                 <p className="text-md text-[#8e8e8e] mb-4">At Quadra Café, we celebrate the perfect blend of Argentine coffee culture and Caribbean ease. Our colorful, welcoming atmosphere reflects the spirit of Playa del Carmen—relaxed, authentic, and full of life.</p>
                 <p className="text-md text-[#8e8e8e] mb-5">Every cup is crafted with specialty beans sourced from sustainable farms and roasted to perfection. From our signature flat whites to hearty breakfast plates, each offering is made with care and a passion for bringing people together over great coffee.</p>
                 <div className="mt-8 grid grid-cols-3 gap-4">

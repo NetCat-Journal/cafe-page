@@ -11,8 +11,8 @@ import { testimonials, Testimonial } from "../../data/testimonials";
 
 function Testimonials() {
   return (
-    <div className="p-8 w-full bg-gradient-to-b from-gray-50 to-white">
-      <h2 className="text-center mb-20 text-[#a96522] text-5xl font-bold">What Our Customers Say</h2>
+    <div className=" px-8 py-15 w-full bg-gradient-to-b from-gray-50 to-white">
+      <h2 className="text-center mb-10 text-[#a96522] text-3xl md:text-5xl font-bold">What Our Customers Say</h2>
       <Carousel
         opts={{
           align: "center",
@@ -21,7 +21,7 @@ function Testimonials() {
       >
         <CarouselContent className="mb-2">
           {testimonials.map((testimonial: Testimonial) => (
-            <CarouselItem key={testimonial.id} className="basis-1/2 lg:basis-1/3">
+            <CarouselItem key={testimonial.id} className="basis-full md:basis-1/2 lg:basis-1/3">
               <div>
                 <Card className="h-[450px] p-6 border-0 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
                   <CardContent className="grid grid-rows-[auto_auto_auto_1fr_auto] gap-3 p-6 h-full text-center">

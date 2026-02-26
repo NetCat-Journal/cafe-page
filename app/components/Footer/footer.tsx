@@ -16,7 +16,7 @@ function Footer() {
                     <p className='text-white/80 text-sm'>Av. CTM entre 5 Y 10 Av, Zazil-ha, 77720 Playa del Carmen, Q.R.</p>
                     <div className='flex flex-row mt-4 items-center justify-start'>
                         <div className='rounded-full bg-[#3f2305] p-2 mr-2 hover:bg-[#C47A2C]'>
-                            <Phone className='text-[#C47A2C] hover:text-white' size={20} />
+                            <Phone className='text-white/90' size={20} />
                         </div>
                         <p className='text-white/80 text-sm'>984 142 3946</p>
                     </div>
@@ -27,7 +27,7 @@ function Footer() {
                             rel="noopener noreferrer"
                             className='rounded-full bg-[#3f2305] p-2 hover:bg-[#C47A2C] transition-all hover:scale-110'
                         >
-                            <Instagram className='text-[#C47A2C]' size={20} />
+                            <Instagram className='text-white/90' size={20} />
                         </a>
                         <a
                             href="https://facebook.com/quadracafe"
@@ -35,7 +35,7 @@ function Footer() {
                             rel="noopener noreferrer"
                             className='rounded-full bg-[#3f2305] p-2 hover:bg-[#C47A2C] transition-all hover:scale-110'
                         >
-                            <Facebook className='text-[#C47A2C]' size={20} />
+                            <Facebook className='text-white/90' size={20} />
                         </a>
                     </div>
                 </div>

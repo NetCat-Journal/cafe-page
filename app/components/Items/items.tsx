@@ -3,7 +3,7 @@ import { Coffee, UtensilsCrossed } from 'lucide-react';
 
 function Items() {
     return (
-        <div className='bg-white w-full p-8'>
+        <div className='bg-white w-full px-8 py-2'>
             <div className="text-center mb-16">
                 <h2 className="text-4xl md:text-5xl font-bold text-[#a96522] mb-4">
                     Our Menu
@@ -51,7 +51,7 @@ function Items() {
                                         {item.price}
                                     </span>
                                 </div>
-                                <p className="text-sm text-gray-600">{item.description}</p>
+                                <p className="text-sm text-[#8e8e8e]">{item.description}</p>
                             </div>
                         ))}
                     </div>
