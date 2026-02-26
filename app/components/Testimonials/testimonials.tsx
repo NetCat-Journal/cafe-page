@@ -21,7 +21,7 @@ function Testimonials() {
       >
         <CarouselContent className="mb-2">
           {testimonials.map((testimonial: Testimonial) => (
-            <CarouselItem key={testimonial.id} className="basis-1/1 lg:basis-1/3">
+            <CarouselItem key={testimonial.id} className="basis-1/2 lg:basis-1/3">
               <div>
                 <Card className="h-[450px] p-6 border-0 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
                   <CardContent className="grid grid-rows-[auto_auto_auto_1fr_auto] gap-3 p-6 h-full text-center">
