@@ -5,7 +5,7 @@ function Items() {
     return (
         <div className='bg-white w-full px-8 py-2'>
             <div className="text-center mb-16">
-                <h2 className="text-4xl md:text-5xl font-bold text-[#a96522] mb-4">
+                <h2 className="text-3xl md:text-5xl font-bold text-[#a96522] mb-4">
                     Our Menu
                 </h2>
                 <p className="text-xl text-[#8e8e8e]">
@@ -15,7 +15,7 @@ function Items() {
             <div className="mb-16">
                 <div className="flex items-center gap-3 mb-8">
                     <Coffee size={32} className="text-[#90591f]" />
-                    <h3 className="text-3xl font-bold text-gray-900">Specialty Coffee</h3>
+                    <h3 className="text-2xl font-bold text-gray-900">Specialty Coffee</h3>
                 </div>
                 <div className="grid md:grid-col-2 lg:grid-cols-4 gap-6">
                     {coffeeItems.map((item) => (
@@ -36,7 +36,7 @@ function Items() {
                 <div className="mt-16">
                     <div className="flex items-center gap-3 mb-8">
                         <UtensilsCrossed size={32} className="text-[#a96522]" />
-                        <h3 className="text-3xl font-bold text-gray-900">Fresh Food</h3>
+                        <h3 className="text-2xl font-bold text-gray-900">Fresh Food</h3>
                     </div>
 
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
