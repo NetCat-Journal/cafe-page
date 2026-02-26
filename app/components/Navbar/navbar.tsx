@@ -11,7 +11,7 @@ function Navbar() {
     }
 
     return (
-        <div className='fixed top-0 left-0 right-0 z-50 bg-white shadow-md flex flex-col md:flex-row px-6 md:px-9 items-center justify-between'>
+        <div className='fixed top-0 left-0 right-0 z-50 bg-white shadow-md flex flex-col md:flex-row p-6 md:py-0 md:px-9 items-center justify-between'>
             <div className='w-32 h-32'>
                 <a href="#home"><img alt="logo" src="/img/logo.jpg" className='h -full object-contain'></img></a>
             </div>
