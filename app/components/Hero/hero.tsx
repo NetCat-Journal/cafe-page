@@ -16,14 +16,14 @@ function Hero() {
             <div className="relative flex flex-col justify-center items-center h-full space-y-6 max-w-3/5 text-center mx-auto z-10">
                 <h1 className="text-6xl md:text-8xl font-extrabold text-white leading-[1.1] tracking-widest">Quadra Café</h1>
                 <p className="text-xl md:text-2xl text-white/90 font-semibold max-w-2xl">Great Coffee. Fast WiFi. Good Vibes.</p>
-                <div className="flex gap-4 mt-4">
-                    <button className="py-4 px-8 bg-[#C47A2C] rounded-lg text-white font-semibold hover:bg-[#a96522] transition-all duration-300 shadow-lg hover:-translate-y-1">
+                <div className="flex flex-col md:flex-row gap-4 mt-4">
+                    <a href="#menu" className="py-4 px-8 bg-[#C47A2C] rounded-lg text-white font-semibold hover:bg-[#a96522] transition-all duration-300 shadow-lg hover:-translate-y-1">
                         Explore the Menu
-                    </button>
+                    </a>
 
-                    <button className="py-4 px-8 border border-white/60 rounded-lg text-white font-semibold hover:bg-white hover:text-black transition-all duration-300">
+                    <a href="#contact" className="py-4 px-8 border border-white/60 rounded-lg text-white font-semibold hover:bg-white hover:text-black transition-all duration-300">
                         Get Directions
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>

@@ -10,6 +10,7 @@ import Items from './components/Items/items';
 
 export default function Home() {
 
+
   return (
     <main className="min-h-screen w-screen overflow-hidden">
       <section>
@@ -31,7 +32,7 @@ export default function Home() {
       </section>
 
       {/* 4. testimonials section*/}
-      <section className='w-full'>
+      <section id="testimonials" className='w-full'>
         <Testimonials />
       </section>
 
