@@ -7,7 +7,7 @@ import {
 } from "@/components/ui/carousel";
 import { Coffee } from 'lucide-react';
 import { Card, CardContent } from "@/components/ui/card";
-import { testimonials } from "../../data/testimonials";
+import { testimonials, Testimonial } from "../../data/testimonials";
 
 function Testimonials() {
   return (
