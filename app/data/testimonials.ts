@@ -1,4 +1,14 @@
-export const testimonials = [
+
+export interface Testimonial {
+    id: number;
+    name: string;
+    role: string;
+    rating: number;
+    text: string;
+    avatar: string;
+}
+
+export const testimonials: Testimonial[] = [
     {
         id: 1,
         name: "Sarah Mitchell",
